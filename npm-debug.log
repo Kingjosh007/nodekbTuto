@@ -1,0 +1,127 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'passport',
+1 verbose cli   'passport-local',
+1 verbose cli   'bcryptjs' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData passport
+8 silly fetchPackageMetaData passport-local
+9 silly fetchPackageMetaData bcryptjs
+10 silly fetchNamedPackageData passport
+11 silly mapToRegistry name passport
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'passport',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'passport',
+14 silly mapToRegistry   name: 'passport',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/passport
+16 silly fetchNamedPackageData passport-local
+17 silly mapToRegistry name passport-local
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'passport-local',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   escapedName: 'passport-local',
+20 silly mapToRegistry   name: 'passport-local',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/passport-local
+22 silly fetchNamedPackageData bcryptjs
+23 silly mapToRegistry name bcryptjs
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'bcryptjs',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'bcryptjs',
+26 silly mapToRegistry   name: 'bcryptjs',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/bcryptjs
+28 verbose request uri https://registry.npmjs.org/passport
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 15:26:46
+31 verbose request id 8a2a0a4f46161bd2
+32 http request GET https://registry.npmjs.org/passport
+33 verbose request uri https://registry.npmjs.org/passport-local
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 15:26:46
+36 http request GET https://registry.npmjs.org/passport-local
+37 verbose request uri https://registry.npmjs.org/bcryptjs
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 15:26:46
+40 http request GET https://registry.npmjs.org/bcryptjs
+41 info retry will retry, error on last attempt: Error: read ECONNRESET
+42 info retry will retry, error on last attempt: Error: read ECONNRESET
+43 info retry will retry, error on last attempt: Error: read ECONNRESET
+44 info attempt registry request try #2 at 15:27:03
+45 http request GET https://registry.npmjs.org/bcryptjs
+46 info attempt registry request try #2 at 15:27:03
+47 http request GET https://registry.npmjs.org/passport-local
+48 info attempt registry request try #2 at 15:27:03
+49 http request GET https://registry.npmjs.org/passport
+50 info retry will retry, error on last attempt: Error: read ECONNRESET
+51 info retry will retry, error on last attempt: Error: read ECONNRESET
+52 info retry will retry, error on last attempt: Error: read ECONNRESET
+53 info attempt registry request try #3 at 15:28:07
+54 http request GET https://registry.npmjs.org/passport-local
+55 info attempt registry request try #3 at 15:28:07
+56 http request GET https://registry.npmjs.org/bcryptjs
+57 info attempt registry request try #3 at 15:28:07
+58 http request GET https://registry.npmjs.org/passport
+59 silly fetchPackageMetaData Error: read ECONNRESET
+59 silly fetchPackageMetaData     at exports._errnoException (util.js:1020:11)
+59 silly fetchPackageMetaData     at TLSWrap.onread (net.js:568:26)
+59 silly fetchPackageMetaData  error for bcryptjs { Error: read ECONNRESET
+59 silly fetchPackageMetaData     at exports._errnoException (util.js:1020:11)
+59 silly fetchPackageMetaData     at TLSWrap.onread (net.js:568:26) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+60 silly fetchPackageMetaData Error: read ECONNRESET
+60 silly fetchPackageMetaData     at exports._errnoException (util.js:1020:11)
+60 silly fetchPackageMetaData     at TLSWrap.onread (net.js:568:26)
+60 silly fetchPackageMetaData  error for passport-local { Error: read ECONNRESET
+60 silly fetchPackageMetaData     at exports._errnoException (util.js:1020:11)
+60 silly fetchPackageMetaData     at TLSWrap.onread (net.js:568:26) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+61 silly fetchPackageMetaData Error: read ECONNRESET
+61 silly fetchPackageMetaData     at exports._errnoException (util.js:1020:11)
+61 silly fetchPackageMetaData     at TLSWrap.onread (net.js:568:26)
+61 silly fetchPackageMetaData  error for passport { Error: read ECONNRESET
+61 silly fetchPackageMetaData     at exports._errnoException (util.js:1020:11)
+61 silly fetchPackageMetaData     at TLSWrap.onread (net.js:568:26) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+62 silly rollbackFailedOptional Starting
+63 silly rollbackFailedOptional Finishing
+64 silly runTopLevelLifecycles Finishing
+65 silly install printInstalled
+66 verbose stack Error: read ECONNRESET
+66 verbose stack     at exports._errnoException (util.js:1020:11)
+66 verbose stack     at TLSWrap.onread (net.js:568:26)
+67 verbose cwd C:\Users\admin\Desktop\HTML5 Games\Useful\Transversy Media\Node & Express from Scratch\nodekb
+68 error Windows_NT 6.3.9600
+69 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "passport" "passport-local" "bcryptjs"
+70 error node v6.11.3
+71 error npm  v3.10.10
+72 error code ECONNRESET
+73 error errno ECONNRESET
+74 error syscall read
+75 error network read ECONNRESET
+76 error network This is most likely not a problem with npm itself
+76 error network and is related to network connectivity.
+76 error network In most cases you are behind a proxy or have bad network settings.
+76 error network
+76 error network If you are behind a proxy, please make sure that the
+76 error network 'proxy' config is set properly.  See: 'npm help config'
+77 verbose exit [ 1, true ]
